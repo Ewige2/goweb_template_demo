@@ -1,1 +1,0 @@
-{"level":"ERROR","time":"2023-01-16T09:52:11.371+0800","caller":"mysql/mysql.go:36","msg":"connect  mysql   filed ","error":"dial tcp: lookup xxxx: no such host"}
