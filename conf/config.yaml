@@ -1,0 +1,31 @@
+app:
+  name: "web_app_template"
+  mode: "dev"
+  port: 8081
+
+
+log:
+  level: "debug"
+  filename: "web_app.log"
+  max_size: 200
+  max_age: 30
+  max_backups: 7
+
+
+mysql:
+  user: "xxxx"
+  password: "xxxx"
+  host: "xxxx"
+  port: 3306
+  dbname: "xxxx"
+  max_open_conns: 20
+
+
+redis:
+  host: "localhost"
+  port: 6379
+  password: "123"
+  poll_size: 12
+  dbname:  0
+
+
